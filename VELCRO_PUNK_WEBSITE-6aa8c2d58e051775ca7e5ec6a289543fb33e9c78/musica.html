@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velcro - Música y Letras</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Creepster:ital,wght@0,400;0,700;1,400&display=swap">
+    <style>
+        body {
+            font-family: 'Creepster', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+            background: url('FONDO5.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #ffd700;
+            font-size: 35px;
+        }
+
+        header {
+            background-color: black;
+            color: gold;
+            text-align: center;
+            padding: 10px;
+            font-family: 'Creepster', sans-serif;
+        }
+
+        header h1 {
+            font-size: 70px;
+            font-weight: bold;
+        }
+
+        header a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav a {
+            font-weight: bold;
+            text-decoration: none;
+            color: #ffd700;
+        }
+
+        section {
+            font-family: 'Creepster', sans-serif;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 80px;
+        }
+
+        #Música {
+            display: flex;
+            gap: 500px; /* Aumentado el margen entre álbumes */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .album {
+            text-align: center;
+        }
+
+        .album a {
+            display: block;
+        }
+
+        .album img {
+            max-width: 300px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        footer {
+            font-size: 20px;
+            font-family: 'Creepster', sans-serif;
+            background-color: #000;
+            color: #ffd700;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="html1.html">
+            <h1>Velcro</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="musica.html" >Música</a></li>
+                <li><a href="fotografias.html">Galeria</a></li>
+                <li><a href="miembros.html" >Miembr@s</a></li>
+                <li><a href="contacto.html" >Contacto</a></li>
+            </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Música">
+        <div class="album">
+            <p>MAKETA (2020)</p>
+            <a href="MAKETA.html">
+                <img src="maketa.jpg" alt="MAKETA">
+            </a>
+        </div>
+
+        <div class="album">
+            <p>SENSE PÀTRIA DÉU NI SENY (2021)</p>
+            <a href="sensepatria.html">
+                <img src="sensepatria1.jpg" alt="SENSE PÀTRIA DÉU NI SENY">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Velcro. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>

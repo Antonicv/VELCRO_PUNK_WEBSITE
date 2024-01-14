@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velcro - Miembros de la Banda</title>
+    <link rel="stylesheet" href="stilo.css">
+    <style>
+        body {
+            font-family: 'Creepster', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url('FONDO9.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: gold;
+            font-size: 35px;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        footer {
+            font-family: 'Creepster', sans-serif;
+            background-color: #000;
+            color: #ffd700;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            width: 100%;
+            font-size: 20px;
+            clear: both;
+            z-index: 1;
+        }
+
+        section#miembros-banda {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px auto;
+            max-width: 800px;
+        }
+
+        .member {
+            text-align: center;
+            margin-bottom: 30px;
+            width: 45%; /* Ajustar según sea necesario para dejar espacio entre los miembros */
+        }
+
+        .member img {
+            width: 200px; /* Establecer el tamaño deseado */
+            height: 200px; /* Establecer el tamaño deseado */
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .member p {
+            color: gold; }
+            
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="html1.html">
+            <h1>Velcro</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="musica.html" >Música</a></li>
+                <li><a href="fotografias.html">Galeria</a></li>
+                <li><a href="miembros.html" >Miembr@s</a></li>
+                <li><a href="contacto.html" >Contacto</a></li>
+            </ul>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="miembros-banda">
+        <div class="member">
+            <img src="raka.png" alt="Miembro 1">
+            <p>Bajo/Voz - Raka</p>
+        </div>
+
+        <div class="member">
+            <img src="albaro.jpg" alt="Miembro 2">
+            <p>Voz - Albareto</p>
+        </div>
+
+        <div class="member">
+            <img src="uri.jpg" alt="Miembro 3">
+            <p>Batería - Uri</p>
+        </div>
+        
+        <div class="member">
+            <img src="ausias2.jpg" alt="Miembro 4">
+            <p>Guitarra - Ausiàs</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Velcro. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
